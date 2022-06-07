@@ -1,0 +1,26 @@
+news_site:
+  infobae:
+    url: https://www.infobae.com/
+    queries:
+      homepage_article_links : '.nd-feed-load-container-0 a'
+      article_body: '.nd-body-article p'
+      article_title: '.article-header h1'
+  laizquierda:
+    url: https://www.laizquierdadiario.com/
+    queries:
+      homepage_article_links : '.noticia a'
+      article_body: ''
+      article_title: '.header-articulo h1'
+  pagina12:
+    url: https://www.pagina12.com.ar/
+    queries:
+      homepage_article_links : '.article-title a'
+      article_body: '.article-main-content article-text'
+      article_title: '.(col 2-col) a'
+  elpais:
+    url: https://elpais.com/argentina/
+    queries:
+      homepage_article_links : '.c_t a'
+      article_body: '.(a_c clearfix) p'
+      article_title: '.a_e_txt _df'
+  
